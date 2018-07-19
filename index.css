@@ -119,7 +119,7 @@ fieldset{
 }
 
 .correct {color: #BEF202}
-.incorrect {color: #FF4E50}
+.incorrect {color: #ffa7a8}
 
 @media (max-width: 500px){
 	h1{font-size: 1.5em;}
