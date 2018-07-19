@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Boxing History Quiz</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<header role="banner">
+	<h1>Boxing History Quiz</h1>
+</header>
+<main role="main">
+	<div class="tally-section">
+			<span id="qcount"></span>
+			<span id="score"></span>
+		</div>
+	</div>
+	<form>
+		<fieldset>
+			<legend id="question">questions/intro</legend>
+			<div id="intro"></div>
+			<div id="result">
+				<p></p>
+			</div>
+			<div id="tally-area"></div>
+				<div class="ans-line">
+					<input type="radio" name="answer" id="answer0" value="0">
+					<label for="answer0"><span>Answer One</span></label>
+				</div>
+				<div class="ans-line">
+					<input type="radio" name="answer" id="answer1"  value="1">
+					<label for="answer1"><span>Answer Two</span></label>
+				</div>
+				<div class="ans-line">
+					<input type="radio" name="answer" id="answer2" value="2">
+					<label for="answer2"><span>Answer Three</span></label>
+				</div>
+				<div class="ans-line">
+					<input type="radio" name="answer" id="answer3" value="3">
+					<label for="answer3"><span>Answer Four</span></label>
+				</div>
+		</fieldset>
+		<button role="button" id="submit" class="button" type="submit">Submit</button>
+		<button role="button" id="continue" class="button" type="button">Continue</button>
+		<button role="button" id="restart" class="button" type="button" onClick="location.reload()">Restart</button>
+	</form>
+</main>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+</body>
+</html>
